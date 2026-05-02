@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Same palette as the Lovable preview (orange/red warm theme) */
+  --background: #fdf8f3;
+  --foreground: #1c1827;
+  --card: #ffffff;
+  --card-foreground: #1c1827;
+  --muted: #f3ede5;
+  --muted-foreground: #6b6577;
+  --border: #ece2d4;
+  --input: #f0e6d6;
+
+  --primary: #e0451c;          /* warm red-orange */
+  --primary-foreground: #fffaf0;
+  --accent: #f5a623;           /* warm amber */
+  --destructive: #dc2626;
+
+  --radius: 12px;
+
+  /* Gradients & shadows from the preview */
+  --gradient-hero: linear-gradient(135deg, #e0451c 0%, #f59e0b 100%);
+  --gradient-card: linear-gradient(135deg, #ffffff 0%, #fef3e2 100%);
+  --gradient-mesh:
+    radial-gradient(at 20% 0%, rgba(245, 158, 11, 0.45) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(224, 69, 28, 0.55) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(220, 38, 38, 0.4) 0px, transparent 50%);
+
+  --shadow-soft: 0 10px 30px -12px rgba(224, 69, 28, 0.25);
+  --shadow-elegant: 0 20px 50px -20px rgba(224, 69, 28, 0.35);
+  --shadow-glow: 0 0 40px rgba(245, 158, 11, 0.3);
+
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html, body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+input, textarea {
+  font-family: inherit;
+  color: inherit;
+}
