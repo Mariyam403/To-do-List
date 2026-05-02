@@ -1,6 +1,6 @@
 # 📝 Tasks — MERN To-Do App
 
-A full-stack **To-Do List** application built with the **MERN stack** (MongoDB, Express, React, Node.js). It features a clean orange-gradient UI, modal-based editing, filtering, due dates, and categories — backed by a REST API with full CRUD support.
+A full-stack **To-Do List** application built with the **MERN stack** (MongoDB, Express, React, Node.js). It features editing, filtering, due dates, and categories — backed by a REST API with full CRUD support.
 
 ---
 
