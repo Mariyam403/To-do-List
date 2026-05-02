@@ -75,6 +75,7 @@ MongoDB running locally or have a MongoDB Atlas URI ready
 
 database name: todoapp
 collections: tasks
+````
 
 ### 1. Clone the repo
 ```bash
