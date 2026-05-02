@@ -79,8 +79,8 @@ collections: tasks
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/mern-tasks.git
-cd mern-tasks
+git clone https://github.com/Mariyam403/To-do-List
+cd todo-app
 ```
 
 ### 2. Install dependencies
@@ -92,13 +92,14 @@ npm install
 # Frontend
 cd ../frontend
 npm install
+npm install axios
 ```
 
 ### 3. Run the apps
 ```bash
 # Terminal 1 — backend
 cd backend
-npm run dev   # runs on http://localhost:5000
+npm start   # runs on http://localhost:5000
 
 # Terminal 2 — frontend
 cd frontend
